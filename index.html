@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Responsive Bicis</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body>
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <!--header section starts-->
+
+    <header class="header">
+      <a href="#" class="logo">Bici's</a>
+
+      <nav class="navbar">
+        <a href="#banner">Banner</a>
+        <a href="#products">Productos</a>
+        <a href="#reviews">Reseñas</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+
+      <div class="share">
+        <a href="https://www.facebook.com/lcristiano2" class="fab fa-facebook-f"></a>
+        <a href="https://twitter.com/leocristiano01" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/leandro-cristiano/" class="fab fa-linkedin"></a>
+      </div>
+
+      <p class="credit">&copy; copyright @2022 by Leandro Cristiano</p>
+    </header>
+
+    <!--header section ends-->
+
+    <!--banner section starts-->
+
+    <section class="banner" id="banner">
+      <div class="content">
+        <span>Descuento 50%</span>
+        <h3>Scott Addict RC</h3>
+        <p>
+          Todas y cada una de nuestras bicicletas de carretera están diseñadas
+          con una increíble precisión, prestando atención al más mínimo detalle,
+          ya que justamente son esos detalles los que marcan la diferencia y los
+          que te proporcionarán la mejor experiencia cicli.
+        </p>
+        <a href="#" class="btn"> Comprar ahora!</a>
+      </div>
+
+      <div class="image">
+        <img src="images/banner-product.png" alt="" />
+      </div>
+    </section>
+
+    <!--banner section ends-->
+
+    <!--products section starts-->
+
+    <section class="products" id="products">
+      <h1 class="heading">nuestros <span>Productos</span></h1>
+
+      <div class="swiper products-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <img src="images/bici-img1.png" alt="" />
+            <h3>Turism</h3>
+            <div class="btn" data-product="product-1">Ver detalles</div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <img src="images/bici-img-4.png" alt="" />
+            <h3>Ruta</h3>
+            <div class="btn" data-product="product-2">Ver detalles</div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <img src="images/bici-img6.png" alt="" />
+            <h3>MTB</h3>
+            <div class="btn" data-product="product-3">Ver detalles</div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <img src="images/bici-img3.png" alt="" />
+            <h3>City</h3>
+            <div class="btn" data-product="product-4">Ver detalles</div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <img src="images/bici-img2.png" alt="" />
+            <h3>Classic</h3>
+            <div class="btn" data-product="product-5">Ver detalles</div>
+          </div>
+          <div class="swiper-slide slide">
+            <img src="images/bici-img10.png" alt="" />
+            <h3>Ruta</h3>
+            <div class="btn" data-product="product-6">Ver detalles</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--products section ends-->
+
+    <!--products preview section starts-->
+
+    <section class="products-preview-container">
+      <div class="product-preview" data-target="product-1">
+        <div class="fas fa-times"></div>
+        <div class="image">
+          <img src="images/bici-img1.png" alt="" />
+        </div>
+        <div class="content">
+          <h3>Turismo 2022</h3>
+          <p>
+            Las mejores bicis de turismo para aventuras por pistas y rutas, y
+            también todo terreno. Lleva todos los artículos esenciales para tu
+            aventura y conoce más
+          </p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>(135)</span>
+          </div>
+          <div class="price">$1350000</div>
+          <a href="#" class="btn">Compra ahora!</a>
+        </div>
+      </div>
+
+      <div class="product-preview" data-target="product-2">
+        <div class="fas fa-times"></div>
+        <div class="image">
+          <img src="images/bici-img-4.png" alt="" />
+        </div>
+        <div class="content">
+          <h3>Clasica 2022</h3>
+          <p>
+            Recientemente desde Capri bikes hemos participado en un debate sobre
+            el futuro de la movilidad urbana sostenible,
+          </p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>(135)</span>
+          </div>
+          <div class="price">$1550000</div>
+          <a href="#" class="btn">Compra ahora!</a>
+        </div>
+      </div>
+
+      <div class="product-preview" data-target="product-3">
+        <div class="fas fa-times"></div>
+        <div class="image">
+          <img src="images/bici-img6.png" alt="" />
+        </div>
+        <div class="content">
+          <h3>Ciudad 2022</h3>
+          <p>
+            ¿Qué bicicleta me conviene para ciudad? Resultado de imagen para
+            bicicleta ciudad 2022 Lo ideal para la ciudad, es una bicicleta con
+            cambios de al menos 2 velocidades en las ruedas delanteras y al
+            menos 8 en la parte posterior. Según la especialista, una bicicleta
+            3x8 es la mejor para cualquier tipo de ruta y todo terreno
+          </p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>(135)</span>
+          </div>
+          <div class="price">$950000</div>
+          <a href="#" class="btn">Compra ahora!</a>
+        </div>
+      </div>
+
+      <div class="product-preview" data-target="product-4">
+        <div class="fas fa-times"></div>
+        <div class="image">
+          <img src="images/bici-img3.png" alt="" />
+        </div>
+        <div class="content">
+          <h3>Gravel 2022</h3>
+          <p>
+            El mismo comenzó a ganar adeptos y algunas grandes marcas diseñaron
+            bicicletas gravel desde cero para satisfacer debidamente los
+            requerimientos para practicar este tipo de ciclismo. Aquí tenemos
+            los casos de Giant con la Revolt o Trek con Checkpoint.
+          </p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>(135)</span>
+          </div>
+          <div class="price">$2550000</div>
+          <a href="#" class="btn">Compra ahora!</a>
+        </div>
+      </div>
+
+      <div class="product-preview" data-target="product-5">
+        <div class="fas fa-times"></div>
+        <div class="image">
+          <img src="images/bici-img2.png" alt="" />
+        </div>
+        <div class="content">
+          <h3>MTB 2022</h3>
+          <p>
+            CARACTERÍSTICAS. BICICLETA MONTAÑA SCOTT RIN 29. ASPECT 960-2021.
+            MARCO: Aspect serie 900-700 / Aleación 6061 Tubería personalizada,
+            BSA73 / Enrutamiento ...
+          </p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>(135)</span>
+          </div>
+          <div class="price">$3000000</div>
+          <a href="#" class="btn">Compra ahora!</a>
+        </div>
+      </div>
+
+      <div class="product-preview" data-target="product-6">
+        <div class="fas fa-times"></div>
+        <div class="image">
+          <img src="images/bici-img10.png" alt="" />
+        </div>
+        <div class="content">
+          <h3>Ruta 2022</h3>
+          <p>
+            El mundo del ciclismo de carretera tiene muchos seguidores y es por
+            ello que cada vez es mayor la oferta de bicicletas en el mercado. A
+            la cantidad de modelos existentes ahora hay que sumarle la nueva
+            oferta de biciclet
+          </p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <span>(135)</span>
+          </div>
+          <div class="price">$5750000</div>
+          <a href="#" class="btn">Compra ahora!</a>
+        </div>
+      </div>
+    </section>
+
+    <!--products preview section ends-->
+
+    <!--service section start-->
+    <section class="service">
+      <div class="box">
+        <i class="fas fa-shipping-fast"></i>
+        <h3>Devolución gratis</h3>
+      </div>
+
+      <div class="box">
+        <i class="fas fa-redo"></i>
+        <h3>10 días para devolución</h3>
+      </div>
+
+      <div class="box">
+        <i class="fas fa-headset"></i>
+        <h3>Soporte 24/7</h3>
+      </div>
+    </section>
+    <!--service section ends-->
+
+    <!--reviews section start-->
+
+    <section class="reviews" id="reviews">
+      <h1 class="heading">Clientes <span>reseñas</span></h1>
+
+      <div class="swiper reviews-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. At et
+              accusantium minus explicabo nulla, aut quisquam repellat
+              assumenda, cumque quam maxime cum illo, perspiciatis placeat ad
+              dolores similique doloribus fuga dignissimos sit.
+            </p>
+            <img src="images/pic-1.png" alt="" />
+            <h3>Leo</h3>
+          </div>
+
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. At et
+              accusantium minus explicabo nulla, aut quisquam repellat
+              assumenda, cumque quam maxime cum illo, perspiciatis placeat ad
+              dolores similique doloribus fuga dignissimos sit.
+            </p>
+            <img src="images/pic-4.png" alt="" />
+            <h3>fer</h3>
+          </div>
+
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. At et
+              accusantium minus explicabo nulla, aut quisquam repellat
+              assumenda, cumque quam maxime cum illo, perspiciatis placeat ad
+              dolores similique doloribus fuga dignissimos sit.
+            </p>
+            <img src="images/pic-2.png" alt="" />
+            <h3>martha</h3>
+          </div>
+
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. At et
+              accusantium minus explicabo nulla, aut quisquam repellat
+              assumenda, cumque quam maxime cum illo, perspiciatis placeat ad
+              dolores similique doloribus fuga dignissimos sit.
+            </p>
+            <img src="images/pic-3.png" alt="" />
+            <h3>roberto</h3>
+          </div>
+
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. At et
+              accusantium minus explicabo nulla, aut quisquam repellat
+              assumenda, cumque quam maxime cum illo, perspiciatis placeat ad
+              dolores similique doloribus fuga dignissimos sit.
+            </p>
+            <img src="images/pic-5.png" alt="" />
+            <h3>firulais</h3>
+          </div>
+
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. At et
+              accusantium minus explicabo nulla, aut quisquam repellat
+              assumenda, cumque quam maxime cum illo, perspiciatis placeat ad
+              dolores similique doloribus fuga dignissimos sit.
+            </p>
+            <img src="images/pic-6.png" alt="" />
+            <h3>chipi</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--reviews section ends-->
+
+    <!--contact section start-->
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>Contacto</span></h1>
+
+      <div class="row">
+        <form action="">
+          <input type="text" placeholder="Nombre" class="box" />
+          <input type="email" placeholder="Email" class="box" />
+          <input type="number" placeholder="Telefono" class="box" />
+          <textarea
+            name=""
+            class="box"
+            placeholder="mensaje"
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" value="Enviar mensaje" class="btn" />
+        </form>
+        <div class="contact-info">
+          <h3>¿Tienes alguna pregunta?</h3>
+          <p class="grapgh">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nam
+            ipsum nihil sed odio sapiente corporis distinctio laboriosam,
+            obcaecati praesentium delectus, est at mollitia libero atque
+            excepturi qui modi facere.
+          </p>
+          <div class="icons">
+            <i class="fas fa-map"></i>
+            <div class="info">
+              <p>Duitama, Colombia</p>
+            </div>
+          </div>
+          <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <div class="info">
+              <p>cristiano.1889@gmail.com</p>
+              <p>Skype --> leandro.54566</p>
+            </div>
+          </div>
+          <div class="icons">
+            <i class="fas fa-phone"></i>
+            <div class="info">
+              <p>3213213213</p>
+            </div>
+          </div>
+          <div class="share">
+            <a
+              href="https://www.facebook.com/lcristiano2"
+              class="fab fa-facebook"
+            ></a>
+            <a href="https://twitter.com/leocristiano01" class="fab fa-twitter"></a>
+            <a
+              href="https://www.linkedin.com/in/leandro-cristiano/"
+              class="fab fa-linkedin"
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--reviews section ends-->
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
